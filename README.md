@@ -77,26 +77,4 @@ node backend/server.js
 Abre el archivo index.html ubicado en la carpeta /frontend
 
 
-## Estructura del Proyecto
-
-/DevTaskTracker
-├── /backend            # Lógica del servidor (API)
-│   ├── /models         # Esquemas de Mongoose (Task.js)
-│   ├── .env            # Variables de entorno (Ignorado por Git)
-│   ├── server.js       # Punto de entrada del servidor
-│   └── package.json    # Dependencias del proyecto
-│
-├── /frontend           # Interfaz de usuario (Cliente)
-│   ├── index.html      # Estructura HTML
-│   ├── style.css       # Estilos CSS Grid/Flex
-│   └── app.js          # Lógica JS (Fetch + DOM)
-│
-├── .gitignore          # Archivos ignorados (node_modules, .env)
-└── README.md           # Documentación del proyecto
-
-
-## Autor
-
-Eduardo Alcaide Rodríguez
-
 
